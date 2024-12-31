@@ -1,0 +1,18 @@
+{
+  "name": "learn-playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:show" : "npm run test && npm run report",
+    "report" : "playwright show-report"
+  },
+  "keywords": [],
+  "author": "Shawn Cicoria <github@cicoria.com> (https://cicoria.com/)",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^22.10.2"
+  }
+}
